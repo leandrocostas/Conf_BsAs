@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_titulos {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(44, 43, 43);
+}
+
+.logo_div {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+.titulo_logo {
+    color: white;
+}
+
+li {
+    padding-right: 25px;
+    color: grey;
+}
+
+.comprar_verde{
+    color: rgb(3, 85, 3);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.section_01 {
+    height: 700px;
+    width: 100%;
+    background-image: url(../images/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 75%;
+}
+
+.presentacion {
+    color: white;
+    display: flex;
+    align-content: center;
+    text-align: right;
+    padding-top: 325px;
+    padding-left: 675px;
+}
+
+.botones {
+    padding-left: 900px;
+}
+
+.boton_orador {
+    background-color: transparent;
+    color: white;
+    border: solid 1px white;
+    border-radius: 3px;
+    padding: 7px 7px;
+    margin-right: 3px;
+}
+
+.boton_tickets {
+    background-color: green;
+    border: solid 1px green;
+    border-radius: 3px;
+    color: white;
+    padding: 7px 7px;
+    margin-left: 3px;
+}
+
+.section_02 {
+    height: 615px;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.titulo_oradores {
+    text-align: center;
+}
+
+.conoce {
+    color: grey;
+}
+
+.oradores {
+    padding-top: 5px;
+
+}
+
+.oradores_presentes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lenguajes {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.js {
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.react {
+    border-radius: 4px;
+    background-color: rgb(82, 138, 222);
+    color: white;
+    margin-left: 5px;
+}
+
+.negocios {
+    border-radius: 4px;
+    background-color: grey;
+    color: white;
+}
+
+.startups {
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    margin-left: 5px;
+}
+
+.section_03 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.playa {
+    height: 400px;
+    width: 50%;
+    background-image: url(../images/honolulu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: solid white 1px;
+}
+
+.octubre {
+    height: 400px;
+    width: 50%;
+    background-color: rgb(43, 42, 42);
+}
+
+.comentarios{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.boton_conoce{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.foot{
+    background-color: rgb(24, 24, 71);
+}
